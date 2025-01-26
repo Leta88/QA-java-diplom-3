@@ -10,7 +10,7 @@ public class ConstructorTabsTest extends BaseUITest{
 
     @Test
     @DisplayName("It is possible to select tab with buns")
-    public void PossibleToSwitchTabsBunsTest(){
+    public void possibleToSwitchTabsBunsTest(){
         Allure.description("Check if it is possible to select tab with buns");
 
         ConstructorPage constructorPage = new ConstructorPage(driver);
@@ -22,7 +22,7 @@ public class ConstructorTabsTest extends BaseUITest{
 
     @Test
     @DisplayName("It is possible to select tab with sauces")
-    public void PossibleToSwitchTabsSaucesTest(){
+    public void possibleToSwitchTabsSaucesTest(){
         Allure.description("Check if it is possible to select tab with sauces");
 
         ConstructorPage constructorPage = new ConstructorPage(driver);
@@ -34,7 +34,7 @@ public class ConstructorTabsTest extends BaseUITest{
 
     @Test
     @DisplayName("It is possible to select tab with fillings")
-    public void PossibleToSwitchTabsFillingsTest(){
+    public void possibleToSwitchTabsFillingsTest(){
 
         Allure.description("Check if it is possible to select tab with fillings");
         ConstructorPage constructorPage = new ConstructorPage(driver);

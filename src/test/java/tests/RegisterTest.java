@@ -57,7 +57,7 @@ public class RegisterTest extends BaseUITest {
 
     @Test
     @DisplayName("Register new user via UI")
-    public void RegisterNewUserTest() throws InterruptedException {
+    public void registerNewUserTest() throws InterruptedException {
 
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.openRegisterPage();

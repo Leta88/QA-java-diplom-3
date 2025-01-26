@@ -80,14 +80,14 @@ public class UserAccountTest extends BaseUITest{
 
     @Test
     @DisplayName("Open User Account")
-    public void PossibleToEnterUserAccount() throws InterruptedException {
+    public void possibleToEnterUserAccount() throws InterruptedException {
         String currentUrl = driver.getCurrentUrl();
         assertEquals(UserAccountPage.USER_ACCOUNT_PAGE_URL, currentUrl);
     }
 
     @Test
     @DisplayName("Logout from User Account")
-    public void PossibleToLogOut(){
+    public void possibleToLogOut(){
 
         UserAccountPage userAccountPage = new UserAccountPage(driver);
         userAccountPage.clickLogoutButton();

@@ -71,7 +71,7 @@ public class LoginTest extends BaseUITest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] getSumData() {
+    public static Object[][] getUserData() {
         return new Object[][] {
 
                 { 1, "John", "password112345", "john12345@123.com"},
@@ -83,7 +83,7 @@ public class LoginTest extends BaseUITest {
 
     @Test
     @DisplayName("Login by different ways")
-    public void LoginTest() throws InterruptedException {
+    public void checkLoginTest() throws InterruptedException {
         switch (loginVersion) {
             case 1:
             case 2:
